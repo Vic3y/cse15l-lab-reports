@@ -20,8 +20,8 @@
 
 * **Open terminal**
 * **Install OpenSSH**
-* **Looked up the CSE15L account**
-* **Connected to the remote host (ieng6.ucsd.edu server)**
+* **Look up the CSE15L account**
+* **Connect to the remote host (ieng6.ucsd.edu server)**
 
 ![Remotely Connecting](CSE15L1_SS2.png)
 
