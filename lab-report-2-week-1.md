@@ -15,4 +15,16 @@
 
 ![Installing VScode](CSE15L1_SS1.png)
 
+---
+
+## *Remotely Connecting*
+
+* **Opened terminal**
+* **Install OpenSSH**
+* **Looked up the CSE15L account**
+* **Connected to the remote host (ieng6.ucsd.edu server)**
+
+
+---
+
 
