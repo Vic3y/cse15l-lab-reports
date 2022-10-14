@@ -19,9 +19,13 @@
 ## *Remotely Connecting*
 
 * **Open terminal**
+  - To open terminal by pressing (Ctrl + Shift + ') or by clicking new terminal
 * **Install OpenSSH**
+  - [Link to OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
 * **Look up the CSE15L account**
+  - [Website to account lookup for CSE15](https://sdacs.ucsd.edu/~icc/index.php)
 * **Connect to the remote host (ieng6.ucsd.edu server)**
+  - To connext to the remote host, you use your account for CSE15L with the new password.
 
 ![Remotely Connecting](CSE15L1_SS2.png)
 
@@ -42,9 +46,15 @@
 
 * **Open another terminal, make sure to not log in to the "ieng6" but from the client(your computer)**
 * **In the clients terminal run the command "scp"**
-* **Choose the file you will move to the desired client (ieng6 account)**
+  - The scp command copies files or directories between a local and a remote system or between two remote systems. 
+* **The file you will move to the desired client (in  this case it will beieng6 account)**
+  - You can use this command from a remote system or from the local system. 
+  * $scp filename(desired location to copy file)*
 * **It will ask you for a password**
-* **Log back in to the ieng6 with the ssh and in your home directory. Using the "ls" command you should see the file that you just moved.**
+
+* **Log back in to the ieng6 with the ssh and in your home directory.** 
+
+* **Using the "ls" command you should see the file that you just moved.**
 
 *"scp" copies the file from your computer and moves the file over to the SSH*
 
@@ -54,11 +64,11 @@
 
 ## *Setting an SSH Key*
 
-* **On the client computer I ran the "ssh-keygen" command. The command essentially aoutomatic logs you in or let used the "scp" command without constantly typing in a password.**
+* **On the client computer I ran the "ssh-keygen" command. The command essentially automatic logs you in or let used the "scp" command without constantly typing in a password.**
 
 * **I made sure that I did not add a passphrase for the step and just pressed enter until recieve the randimart immage.**
 
-* **Then copy the the public key to the ".ssh" directory on the computer**
+* **Then copy the the public key to the ".ssh" directory on the computer, using the scp command.**
 
 * **Then, logout the ssh ieng6 server and log back in to make sure that logging into the ieng6 server does not require you to insert a password.**
 
